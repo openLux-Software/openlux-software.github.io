@@ -12,7 +12,8 @@ body{
     vertical-align: baseline;
     font-family: 'Exo', sans-serif;
 
-    animation: fadein 1s;
+    /*animation: fadein 1s;*/
+    animation: sizeup 0.25s;
 
 }
 
@@ -71,4 +72,9 @@ li a:hover {
 @keyframes fadein {
     from{opacity: 0;}
     to{opacity: 1;}
+}
+
+@keyframes sizeup {
+    from{width: 0%; height: 0%;}
+    to{width: 100%; height: 100%;}
 }
