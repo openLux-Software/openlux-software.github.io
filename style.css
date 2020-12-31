@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
+
+
+body{
+
+    background-color: black;
+
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Exo', sans-serif;
+
+    animation: fadein 1s;
+
+}
+
+li {
+    display: inline;
+    margin: 0;
+    padding: 15px;
+
+    
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    color: white;
+}
+
+.navbar{
+    background-color: white;
+    padding: 4px;
+}
+
+.navbar-item:hover {
+    border-width: 18px;
+    border-color: black;
+    border-style: solid;
+    animation: navhov 0.15s;
+
+    background-color: black; color: white;
+
+    cursor: pointer;
+}
+
+.page-end {
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:white;
+   padding: 5px;
+}
+
+.someprojects {
+    background-color: white;
+    padding: 5px;
+}
+
+@keyframes navhov {
+    from{border-width: 0px; background-color:white; color: black;}
+    to{border-width: 18px; background-color: black; color: white;}
+}
+
+@keyframes fadein {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
